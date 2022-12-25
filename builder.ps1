@@ -17,5 +17,6 @@ Copy-Item "..\logo.ico" -Destination ".\dist\class2.81"
 Copy-Item "..\yt-dlp_x86.exe" -Destination ".\dist\class2.81"
 .\yt-dlp.exe -U
 Copy-Item "..\ffmpeg.exe" -Destination ".\dist\class2.81"
+Copy-Item "..\AtomicParsley.exe" -Destination ".\dist\class2.81"
 Remove-Item ".\dist\class2.81\websockets-10.4.dist-info"
 read-host “`r`nPress ENTER to continue...”
