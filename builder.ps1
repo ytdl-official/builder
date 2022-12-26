@@ -6,7 +6,7 @@ pip install Pillow
 pip install Pyinstaller
 pip install requests
 pip install psutil
-pip install yt_dlp
+pip install --upgrade yt_dlp
 pip install pytube
 Copy-Item "..\class2.81.py" -Destination ".\"
 Copy-Item "..\logo.ico" -Destination ".\"
